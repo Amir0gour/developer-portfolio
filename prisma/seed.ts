@@ -13,7 +13,7 @@ async function main() {
 
   const existingAdmin = await prisma.adminUser.findFirst();
   if (existingAdmin) {
-    console.log(Admin user already exists. Skipping seed.);
+    console.log('Admin user already exists. Skipping seed.');
     return;
   }
 
