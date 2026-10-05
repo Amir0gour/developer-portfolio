@@ -16,7 +16,7 @@ export default function TagInput({ value, onChange, placeholder = 'Type and pres
 
   return (
     <div className={cn('flex flex-wrap gap-2 p-2 rounded-md border border-border bg-background min-h-[42px]', className)}>
-      {value.map((tag) => (
+      {(value || []).map((tag) => (
         <span key={tag} className="flex items-center gap-1 px-2 py-1 text-xs rounded-md bg-primary/10 text-primary">
           {tag}<button type="button" onClick={() => onChange(value.filter(t => t !== tag))} className="hover:text-destructive"><X className="h-3 w-3" /></button>
         </span>
