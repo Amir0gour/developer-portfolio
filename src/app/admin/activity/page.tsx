@@ -1,5 +1,5 @@
 'use client';
-
+export const dynamic = 'force-dynamic';
 import { useState, useEffect } from 'react';
 import { Card, EmptyState, Skeleton, Pagination } from '@/components/ui';
 import { toast } from 'sonner';

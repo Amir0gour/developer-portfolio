@@ -1,5 +1,5 @@
 'use client';
-
+export const dynamic = 'force-dynamic';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Button, Select, Card, Badge, ConfirmDialog, EmptyState, Skeleton } from '@/components/ui';

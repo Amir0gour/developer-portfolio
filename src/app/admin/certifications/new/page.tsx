@@ -1,5 +1,5 @@
 'use client';
-
+export const dynamic = 'force-dynamic';
 import { useRouter } from 'next/navigation';
 import { useForm as useRHForm } from 'react-hook-form';
 import { Button, Input, Card } from '@/components/ui';

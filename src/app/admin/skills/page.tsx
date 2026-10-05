@@ -1,5 +1,5 @@
 'use client';
-
+export const dynamic = 'force-dynamic';
 import { useState, useEffect } from 'react';
 import { Button, Input, Select, Card, ConfirmDialog, Modal, EmptyState, Skeleton } from '@/components/ui';
 import { Plus, Edit, Trash2 } from 'lucide-react';

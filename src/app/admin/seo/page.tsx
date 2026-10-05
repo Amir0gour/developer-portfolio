@@ -1,5 +1,5 @@
 'use client';
-
+export const dynamic = 'force-dynamic';
 import { useEffect, useState } from 'react';
 import { useForm as useRHForm } from 'react-hook-form';
 import { Button, Input, Textarea, Select, Card, Skeleton } from '@/components/ui';
